@@ -1,9 +1,7 @@
-version: "3.8"
-
 services:
   # MySQL Database
   mysql:
-    image: mysql:5.7
+    image: mysql:8.0
     container_name: hot-updater-db
     environment:
       MYSQL_DATABASE: hot_updater

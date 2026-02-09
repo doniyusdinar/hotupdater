@@ -33,7 +33,7 @@ Hot Updater is a self-hosted solution for delivering updates to React Native app
 
 - Full control over your update infrastructure
 - AWS S3 integration for reliable bundle storage
-- MySQL 5.7 database for metadata management
+- MySQL 8.0 database for metadata management
 - API key authentication for admin operations
 - Docker-based deployment for easy setup
 - Support for multiple update channels (production, staging, dev)
@@ -146,7 +146,7 @@ Ready-to-use example configurations are available in the `examples/` directory:
 ## Technology Stack
 
 - **Framework**: Express.js
-- **Database**: MySQL 5.7 with Drizzle ORM
+- **Database**: MySQL 8.0 with Drizzle ORM
 - **Storage**: AWS S3
 - **Deployment**: Docker & Docker Compose
 - **Language**: TypeScript
