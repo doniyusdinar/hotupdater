@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__web-reader__webReader",
+      "mcp__web-search-prime__webSearchPrime",
+      "Bash(docker:*)",
+      "Bash(docker-compose:*)",
+      "Bash(npm install:*)",
+      "Bash(lsof:*)",
+      "Bash(curl:*)",
+      "Bash(npx hot-updater:*)",
+      "Bash(DATABASE_URL=\"postgresql://postgres:postgres@localhost:5433/hot_updater\" npx hot-updater db generate:*)",
+      "Bash(set:*)",
+      "Bash(.:*)",
+      "Bash(npx drizzle-kit push:*)",
+      "Bash(find:*)",
+      "Bash(ls:*)"
+    ]
+  }
+}
